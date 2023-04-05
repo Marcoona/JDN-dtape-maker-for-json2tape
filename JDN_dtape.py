@@ -49,7 +49,8 @@ def danho():
         file.write(slasha)
         danho()
     else:
-        print("thats not an option!!")
+        file.write(slasha)
+        danho()
 
 danho()
     
