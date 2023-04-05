@@ -27,7 +27,7 @@ def danho():
 
     Mats = int(endtime) - int(startime)
 
-    dura = '''        "duration": ''' + str(Mats) + '''\n'''
+    dura = '''        "duration": ''' + str(Mats) + ''',\n'''
 
     file.write(dura)
 
